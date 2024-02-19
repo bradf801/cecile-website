@@ -21,7 +21,7 @@
 :root {
   --color-default: #222222;
   --color-primary: #17345c;
-  --color-secondary: #f85a40;
+  --color-secondary: #ea6c73;
 }
 
 /* Smooth scroll behavior */
@@ -89,7 +89,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   left: 0;
   right: 0;
   bottom: 0;
@@ -928,7 +928,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Services Section
+# My Services Section
 --------------------------------------------------------------*/
 .services {
   padding: 60px 0;
@@ -941,6 +941,10 @@ section {
   border-radius: 10px;
 }
 
+.services .service-item:hover {
+  border-color: var(--color-primary);
+}
+
 .services .service-item .icon {
   width: 48px;
   height: 48px;
@@ -949,24 +953,11 @@ section {
 }
 
 .services .service-item .icon i {
-  color: var(--color-default);
+  color: var(--color-primary);
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
   position: relative;
-}
-
-.services .service-item .icon:before {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: #eeeeee;
-  border-radius: 50px;
-  z-index: 1;
-  top: 10px;
-  right: -20px;
-  transition: 0.3s;
 }
 
 .services .service-item h3 {
@@ -990,15 +981,11 @@ section {
 .services .service-item .readmore {
   margin-top: 15px;
   display: inline-block;
-  color: var(--color-primary);
-}
-
-.services .service-item:hover .icon:before {
-  background: #00b6a1;
+  color: var(--color-secondary);
 }
 
 .services .service-item:hover h3 {
-  border-color: var(--color-primary);
+  border-color: var(--color-secondary);
 }
 
 /*--------------------------------------------------------------
@@ -1593,6 +1580,10 @@ section {
   color: #6c757d;
 }
 
+.faq .content span {
+  color: var(--color-secondary);
+}
+
 .faq .accordion-item {
   border: 0;
   margin-bottom: 20px;
@@ -1614,7 +1605,7 @@ section {
   border: 0;
   font-size: 18px;
   line-height: 24px;
-  color: var(--color-default);
+  color: var(--color-primary);
   text-align: left;
   background: #fff;
   box-shadow: none;
@@ -1718,7 +1709,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: var(--color-secondary);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1849,7 +1840,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: var(--color-secondary);
 }
 
 @keyframes animate-loading {
@@ -1891,6 +1882,12 @@ section {
   margin-bottom: 30px;
 }
 
+.img-cecile-headshot {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+
 .hero .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
@@ -1908,6 +1905,7 @@ section {
 
 .hero .btn-get-started:hover {
   border-color: #ea6c73;
+  background: var(--color-secondary);
 }
 
 .hero .btn-watch-video {
