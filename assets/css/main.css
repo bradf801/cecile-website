@@ -113,9 +113,11 @@ section {
 
 .breadcrumbs .page-header h2 {
   font-size: 56px;
-  font-weight: 500;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.8px;
   color: #fff;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 .breadcrumbs .page-header p {
