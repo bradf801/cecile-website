@@ -1,32 +1,48 @@
 # My Project - Cécile Consulting
 
-This project was intended to serve two purposes:
-1) <strong>Professional</strong>: To support Cécile, who is an excellent healthcare marketing professional
-2) <strong>Educational</strong>: Undertake the process of building and publishing a brand new website without using Wordpress, Squarespace, etc. in order to bolster my professional skills related to digital product and marketing experiences, digital analytics, and front-end development
+## About
 
+<a href="https://www.cecileconsulting.site" target="blank">Cécile Consulting</a> is a professional website built to give better visibility to better market Cécile's consulting services in the healthcare industry.
+
+It's built using <a href="https://getbootstrap.com/" target="blank">Bootstrap</a>. The structure and functionality were mostly borrowed from the <a href="https://bootstrapmade.com/impact-bootstrap-business-website-template/" target="blank">Impact template</a> created by <a href="https://bootstrapmade.com/" target="blank">BootstrapMade</a>.
+
+
+This project was intended to serve two purposes:
+
+1) <strong>Professional</strong>: To support Cécile, who is an excellent healthcare marketing professional.
+2) <strong>Educational</strong>: Undertake the process of building and publishing a website without using Wordpress, Squarespace, etc. in order to bolster my professional skills related to digital product and marketing experiences, digital analytics, and front-end development.
 
 ## Education
 
-### Development Environment
-I became much more familiar with how to setup and more effectively use VSCode and GitHub
+#### Gen AI
+I have a limited background in development, and a  deep interest in Gen AI. With the emergence of tools like ChatGPT, I decided it was time for me to experiment with the power of gen AI tools.
 
-### Coding
-Big improvement in my understanding of and ability to use HTML and CSS (particularly the Bootstrap framework)
-Big improvement my unders
+The experience was quite eye-opening. From explorative queries like:
+> "Provide a very brief overview of what the Bootstrap library is for front-end web development"
 
-### Design
+and
+> "What are the limitations of the Bootstrap framework compared to other popular frameworks?"
 
-### Marketing
+To more specific queries like:
+> "What are the most basic steps I need to take in order to deploy my GitHub project to the internet using a Hover domain that I already own using GitHub Pages?"
 
-## About
+I was able to use ChatGPT 4 to fill in gaps and dig further whenever I became curious about something, or ran into more complicated issues. Although Gen AI doesn't replace years of experience and education, I feel like the level of personalization that ChatGPT 4 enables is an educational cheat code.
 
-This project is my first attempt at creating and publishing a complete website. I've worked in digital experiences my entire career, mostly as an analyst
+Additionally, I used DALL-E to generate the logo, and then I used other online tools to develop the color palette. Really cool stuff.
 
-<a href="cecileconsulting.site" target="blank">Cécile Consulting</a> is a <a href="https://getbootstrap.com/" target="blank">Bootstrap website</a>.
-The design and functionality were heavily borrowed from the <a href="https://bootstrapmade.com/impact-bootstrap-business-website-template/" target="blank">Impact template</a> created by <a href="https://bootstrapmade.com/" target="blank">BootstrapMade</a>.
+#### Dev Environment
+I learned how to how to setup and more effectively use VSCode and GitHub. I used both tools at a very basic level for this project, but the experience gave me a foundation for understanding how more complex projects are built.
 
-I trimmed the downloadable template down to these two pages, and gave it a design overhaul.
+#### HTML + CSS | Bootstrap
+I've worked in digital analytics for years and have developed a basic understanding of how the frontend of a website works. This was a fun opportunity for me to go deeper into the elements of basic design and functionality provided by the Bootstrap framework.
 
-The email form is not functional upon this initial deployment (2/20/2024).
+#### Deploying Static Websites
+This process was new to me. I used ChatGPT and some online documentation proviced by GitHub and Hover to understand this process. It turned out to be way more straightforward than I thought it would. And, as far as I can tell, this website hasn't gone down once since it launched.
 
-I used DALL-E to generate the logo, and then I used other online tools to develop the color palette.
+## Next Steps
+
+#### Email Form
+As of right now (2/22/2024) the email form doesn't work. This is my next deep dive, and looks to be somewhat daunting considering I don't know much about PHP/AJAX, server-side processing, etc.
+
+#### Maintenance
+I plan to learn more about library management and updates so that I can make sure the code doesn't become outdated. the website and make any necessary changes as they arise.
