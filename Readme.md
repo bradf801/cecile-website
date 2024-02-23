@@ -2,14 +2,14 @@
 
 ## About
 
-<a href="https://www.cecileconsulting.site" target="blank">Cécile Consulting</a> is a website built to give more to Cécile's consulting services in the healthcare industry.
+<a href="https://www.cecileconsulting.site" target="blank">Cécile Consulting</a> is a super simple website built to give more visibility to Cécile's consulting services in the healthcare industry.
 
 It's built using <a href="https://getbootstrap.com/" target="blank">Bootstrap</a>. The structure and functionality were mostly borrowed from the <a href="https://bootstrapmade.com/impact-bootstrap-business-website-template/" target="blank">Impact template</a> created by <a href="https://bootstrapmade.com/" target="blank">BootstrapMade</a>.
 
 This project was intended to serve two purposes:
 
 1) **Professional**: To support Cécile, who is an excellent healthcare marketing professional.
-2) **Educational**: Undertake the process of building and publishing a website without using Wordpress, Squarespace, etc. in order to bolster my professional skills related to digital product and marketing experiences, digital analytics, and front-end development.
+2) **Educational**: Undertake the process of building and publishing a website without using Wordpress, Squarespace, etc. in order to bolster my understanding of how web-based products are built.
 
 ## Education
 
